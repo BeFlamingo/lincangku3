@@ -4,9 +4,7 @@ public class sevenpointEighteen {
 
 	public static void sort(double[] n) {
 	int i,j;
-        //第一个for循环表示第几次循环
 		for(i=1;i<n.length;i++) {
-        //第二个for循环表示该次循环进行几次比较
 			for(j=0;j<n.length-i;j++) {
 				if(n[j]>n[j+1]) {
 					double temp = n[j];
